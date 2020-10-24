@@ -1,0 +1,521 @@
+{
+  "uid" : "f5e41f8545cf2586",
+  "name" : "Search an article from wikipedia",
+  "fullName" : "Search an article: Search an article from wikipedia",
+  "historyId" : "596024a29dbc345d809db721f9d82fa",
+  "time" : {
+    "start" : 1603562342293,
+    "stop" : 1603562353507,
+    "duration" : 11214
+  },
+  "description" : "  As a tester, I’d like to confirm data on an Article without relying on a manual search.",
+  "descriptionHtml" : "<p>As a tester, I’d like to confirm data on an Article without relying on a manual search.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.setUp()",
+    "time" : {
+      "start" : 1603562342296,
+      "stop" : 1603562345097,
+      "duration" : 2801
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "  As a tester, I’d like to confirm data on an Article without relying on a manual search.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I am on Google Homepage",
+      "time" : {
+        "start" : 1603562345115,
+        "stop" : 1603562346612,
+        "duration" : 1497
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I navigate to wikipedia page",
+      "time" : {
+        "start" : 1603562347136,
+        "stop" : 1603562348734,
+        "duration" : 1598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the search box",
+      "time" : {
+        "start" : 1603562349258,
+        "stop" : 1603562349314,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I search \"Giga Berlin\"",
+      "time" : {
+        "start" : 1603562349728,
+        "stop" : 1603562349809,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I select the suggested result",
+      "time" : {
+        "start" : 1603562350245,
+        "stop" : 1603562350987,
+        "duration" : 742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see the coordinates of the location",
+      "time" : {
+        "start" : 1603562351654,
+        "stop" : 1603562351684,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I should see logistics content",
+      "time" : {
+        "start" : 1603562352242,
+        "stop" : 1603562352270,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I should see site concerns content",
+      "time" : {
+        "start" : 1603562352827,
+        "stop" : 1603562352852,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562345112,
+      "stop" : 1603562345113,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562346613,
+      "stop" : 1603562347135,
+      "duration" : 522
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "950115c0a2a32244",
+      "name" : "20201024195907.png",
+      "source" : "950115c0a2a32244.png",
+      "type" : "image/png",
+      "size" : 212270
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562347136,
+      "stop" : 1603562347136,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562348734,
+      "stop" : 1603562349258,
+      "duration" : 524
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "633d3f5994a98919",
+      "name" : "20201024195909.png",
+      "source" : "633d3f5994a98919.png",
+      "type" : "image/png",
+      "size" : 237002
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562349258,
+      "stop" : 1603562349258,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562349314,
+      "stop" : 1603562349728,
+      "duration" : 414
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbcc902aea4d760b",
+      "name" : "20201024195909.png",
+      "source" : "fbcc902aea4d760b.png",
+      "type" : "image/png",
+      "size" : 237036
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562349728,
+      "stop" : 1603562349728,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562349809,
+      "stop" : 1603562350245,
+      "duration" : 436
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "99372830238ae06c",
+      "name" : "20201024195910.png",
+      "source" : "99372830238ae06c.png",
+      "type" : "image/png",
+      "size" : 241476
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562350245,
+      "stop" : 1603562350245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562350988,
+      "stop" : 1603562351654,
+      "duration" : 666
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "224dfa440f636dfe",
+      "name" : "20201024195911.png",
+      "source" : "224dfa440f636dfe.png",
+      "type" : "image/png",
+      "size" : 1001933
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562351654,
+      "stop" : 1603562351654,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562351685,
+      "stop" : 1603562352242,
+      "duration" : 557
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "114bce090369bfa7",
+      "name" : "20201024195912.png",
+      "source" : "114bce090369bfa7.png",
+      "type" : "image/png",
+      "size" : 1001933
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562352242,
+      "stop" : 1603562352242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562352270,
+      "stop" : 1603562352826,
+      "duration" : 556
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4eeb5db7c8fa756c",
+      "name" : "20201024195912.png",
+      "source" : "4eeb5db7c8fa756c.png",
+      "type" : "image/png",
+      "size" : 1001933
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1603562352827,
+      "stop" : 1603562352827,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.afterStep()",
+    "time" : {
+      "start" : 1603562352852,
+      "stop" : 1603562353389,
+      "duration" : 537
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c24556248923b3cb",
+      "name" : "20201024195913.png",
+      "source" : "c24556248923b3cb.png",
+      "type" : "image/png",
+      "size" : 1001933
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "stepDefinitions.Hooks.tearDown()",
+    "time" : {
+      "start" : 1603562353389,
+      "stop" : 1603562353505,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Ruis-MBP.fritz.box"
+  }, {
+    "name" : "thread",
+    "value" : "70743@Ruis-MBP.fritz.box.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Search an article"
+  }, {
+    "name" : "story",
+    "value" : "Search an article from wikipedia"
+  }, {
+    "name" : "suite",
+    "value" : "Search an article"
+  }, {
+    "name" : "testClass",
+    "value" : "Search an article from wikipedia"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///Users/ruiyang/Learning/Automation-Test/KollexTestTask/src/test/resources/features/Search.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Search_feature.Search an article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42f24039793990bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603562001452,
+        "stop" : 1603562012314,
+        "duration" : 10862
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5e41f8545cf2586.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Ruis-MBP.fritz.box",
+    "children" : [ {
+      "name" : "70472@Ruis-MBP.fritz.box.main(1)",
+      "children" : [ {
+        "name" : "Search an article from wikipedia",
+        "uid" : "42f24039793990bf",
+        "parentUid" : "6f557e8df80b8c6f39bb57e413dcc226",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603562001452,
+          "stop" : 1603562012314,
+          "duration" : 10862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f557e8df80b8c6f39bb57e413dcc226"
+    }, {
+      "name" : "70743@Ruis-MBP.fritz.box.main(1)",
+      "children" : [ {
+        "name" : "Search an article from wikipedia",
+        "uid" : "f5e41f8545cf2586",
+        "parentUid" : "50ddab259a46e68d8f4b13923f47ec2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603562342293,
+          "stop" : 1603562353507,
+          "duration" : 11214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50ddab259a46e68d8f4b13923f47ec2b"
+    } ],
+    "uid" : "baa7fdea9d33346abd64222bb1711a25"
+  } ],
+  "name" : "timeline"
+}

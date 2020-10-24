@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Oct 24 19:59:02 CEST 2020","Sat Oct 24 19:59:13 CEST 2020","11214","","Search an article","","Search an article from wikipedia","","Search an article from wikipedia","  As a tester, I’d like to confirm data on an Article without relying on a manual search."

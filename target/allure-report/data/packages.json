@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.features.Search_feature.Search an article",
+    "children" : [ {
+      "name" : "Search an article from wikipedia",
+      "uid" : "f5e41f8545cf2586",
+      "parentUid" : "9f66d629748d712f2db36a12b3e68c5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603562342293,
+        "stop" : 1603562353507,
+        "duration" : 11214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.features.Search_feature.Search an article"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Search an article",
+    "children" : [ {
+      "name" : "Search an article from wikipedia",
+      "uid" : "f5e41f8545cf2586",
+      "parentUid" : "6a31ee22eac4e668e21da7ecfeddd0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603562342293,
+        "stop" : 1603562353507,
+        "duration" : 11214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6a31ee22eac4e668e21da7ecfeddd0e2"
+  } ],
+  "name" : "suites"
+}
